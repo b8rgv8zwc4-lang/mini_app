@@ -1,0 +1,68 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+h1 {
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.routes-container {
+    display: flex; /* Используем Flexbox для расположения карточек */
+    flex-wrap: wrap; /* Перенос на новую строку */
+    justify-content: center; /* Центрирование карточек */
+    gap: 20px; /* Отступы между карточками */
+    padding: 2rem 1rem;
+}
+
+.route-card {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 350px; /* Ширина карточки */
+    overflow: hidden;
+    transition: transform 0.3s ease;
+}
+
+.route-card:hover {
+    transform: translateY(-5px); /* Эффект при наведении */
+}
+
+.route-card img {
+    width: 100%;
+}
+
+header {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #333;
+}
+
+.navbar {
+    height: 40px;
+}
+
+.navbtn button  {
+    width: 100px;
+    height: 30px;
+    display: inline;
+    justify-content: center; 
+    gap: 150px; 
+    margin-left: 280px;
+    background: transparent;
+    backdrop-filter: blur(30px);
+    border-radius: 30px;
+    margin-top: 5px;
+    color: #f4f4f4;
+
+}
+
+.navbtn button:hover{
+    transform: translateY(-5px);
+}
+
